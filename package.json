@@ -1,0 +1,28 @@
+{
+  "name": "x-table",
+  "version": "1.0.0",
+  "description": "没有第三方依赖的高性能现代表格组件。",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wangzongming/x-table.git"
+  },
+  "keywords": [
+    "table",
+    "x-table",
+    "vue-table",
+    "react-table",
+    "ng-table",
+    "jq-table",
+    "x"
+  ],
+  "author": "wangzongming",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangzongming/x-table/issues"
+  },
+  "homepage": "https://github.com/wangzongming/x-table#readme"
+}
