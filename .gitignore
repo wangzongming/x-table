@@ -1,0 +1,9 @@
+HELP.md
+.gradle 
+./dist/
+./node_modules/
+./package-lock.json
+.vscode/
+node_modules
+dist
+package-lock.json

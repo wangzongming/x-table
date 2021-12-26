@@ -1,28 +1,50 @@
 {
-  "name": "x-table",
-  "version": "1.0.0",
-  "description": "没有第三方依赖的高性能现代表格组件。",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/wangzongming/x-table.git"
-  },
-  "keywords": [
-    "table",
-    "x-table",
-    "vue-table",
-    "react-table",
-    "ng-table",
-    "jq-table",
-    "x"
-  ],
-  "author": "wangzongming",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wangzongming/x-table/issues"
-  },
-  "homepage": "https://github.com/wangzongming/x-table#readme"
+	"name": "x-table",
+	"version": "1.0.0",
+	"description": "没有第三方依赖的高性能现代表格组件。",
+	"main": "dist/index.es.js", 
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "npx rollup -c",
+		"start": "npx rollup -c -w",
+		"check-type": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/wangzongming/x-table.git"
+	},
+	"keywords": [
+		"table",
+		"x-table",
+		"vue-table",
+		"react-table",
+		"ng-table",
+		"jq-table",
+		"x"
+	],
+	"author": "wangzongming",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/wangzongming/x-table/issues"
+	},
+	"homepage": "https://github.com/wangzongming/x-table#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.16.0",
+		"@babel/core": "^7.16.5",
+		"@babel/plugin-transform-runtime": "^7.16.5",
+		"@babel/preset-env": "^7.16.5",
+		"@babel/runtime": "^7.16.5",
+		"@rollup/plugin-babel": "^5.3.0",
+		"@rollup/plugin-commonjs": "^21.0.1",
+		"@rollup/plugin-node-resolve": "^13.1.1",
+		"@rollup/plugin-typescript": "^8.3.0",
+		"rollup": "^2.62.0",
+		"rollup-plugin-terser": "^7.0.2",
+		"tslib": "^2.3.1",
+		"typescript": "^4.5.4"
+	},
+	"dependencies": {
+		"@babel/polyfill": "^7.12.1",
+		"core-js": "^3.20.1"
+	}
 }
